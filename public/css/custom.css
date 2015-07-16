@@ -1,0 +1,114 @@
+.navbar-inverse {
+  background-color: rgba(0,0,0,.7);
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+
+footer {
+  background: #444343;
+  font-size: 14px;
+  line-height: 1.6em;
+  color:white;
+}
+
+.fb {
+  background: #ffffff;
+}
+
+.panel-info > .panel-heading {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #bce8f1;
+}
+
+.panel-body{
+	color: black;
+}
+
+.privacy{
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+}
+
+
+.top{
+    text-align:center; 
+    position:fixed;
+    top:520px;
+    right:5px;
+    display:none;
+    border-radius:10%;
+}
+
+p.tip{
+	font-weight: bolder;
+	position:fixed;
+  top:470px;
+  right:1px;
+  display: none;
+  background-color: rgba(0,0,0,.3);
+  padding: 10px;
+}
+
+
+.top{
+	color: rgba(255,255,255,.7);
+  text-decoration: none;
+}
+
+.top i:hover{
+    text-decoration:none;
+    color: white;
+    padding: 3px;
+}
+
+
+.top i {
+  /* font-size: 50px; */
+  background-color: rgba(0,0,0,.3);
+  border-radius: 10%;
+  padding: 3px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.dropdown-menu{
+  background-color: rgba(0,0,0,.7);
+}
+
+.dropdown-menu>li>a {
+   color: white; 
+}
+
+
+.jumbotron {
+    height: 400px;
+    background-image: url('../img/about_us.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+.mirror{
+  background-color: rgba(0,0,0,.03);
+  border-radius:7px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5);
+  padding: 10px 10px 0px 10px;
+  margin:10px;
+}
+
+@media (min-width: 768px){
+
+  .navbar-nav {
+  /* float: left; */
+  /* margin: 0; */
+  }
+
+
+}
